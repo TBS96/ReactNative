@@ -3,7 +3,7 @@
 npx react-native@latest init ReactNativeApp01
 ```
 
-- # Create `local.properties` under android folder & create srd directory
+- # Create `local.properties` under android folder & create sdk directory
 ``` bash
 sdk.dir=C:\\Users\\prant\\AppData\\Local\\Android\\Sdk
 ```
