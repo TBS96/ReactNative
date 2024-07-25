@@ -1,5 +1,6 @@
 # Project-2: Creating cards(static & scrolling)
-## Multi-File Components in React Native
+- Multi-File Components in React Native
+- Playing around with flexbox & giving properties to each cards (static cards)
 
 - This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
