@@ -4,6 +4,7 @@
 - Flat cards & Elevated cards(with ScrollView component => horizontal scroll)
 - Creating static cards with img, card body(title, label, desc, footer)
 - DeepLinking: Linking.openURL(), TouchableOpacity
+- Contact list: looping & destructuring data from hard coded objects stored in an array and showing them in cards, somewhat similar to WhatsApp
 
 - This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
