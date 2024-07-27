@@ -16,7 +16,7 @@ const ActionCard = () => {
 
         <View style={styles.headingContainer}>
             <Text style={styles.headerText}>
-                What's new in JavaScript 21 - ES12
+            Know About Bokeh
             </Text>
         </View>
 
