@@ -66,11 +66,13 @@ const ElevatedCards2 = () => {
 
         </ScrollView>
 
-        <Button 
-            title='click'
-            color={'pink'}
-            onPress={() => Alert.alert('Check alert')} 
-        />
+        <View style={styles.clickBtn}>
+            <Button 
+                title='click me!'
+                color={'pink'}
+                onPress={() => Alert.alert('Check alert')} 
+            />
+        </View>
 
     </View>
   )
@@ -124,4 +126,10 @@ const styles = StyleSheet.create({
     cardElevatedBg6: {
         backgroundColor: 'purple'
     },
+    clickBtn: {
+        marginHorizontal: 150
+        // flex: 1,
+        // alignItems: 'center',
+        // justifyContent: 'center'
+    }
 })
