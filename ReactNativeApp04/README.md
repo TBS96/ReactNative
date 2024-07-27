@@ -1,6 +1,8 @@
 # Project-2: Creating cards(static & scrolling)
 - Multi-File Components in React Native
 - Playing around with flexbox & giving properties to each cards (static cards)
+- Flat cards & Elevated cards(with ScrollView component => horizontal scroll)
+- Creating static cards with img, card body(title, label, desc, footer)
 
 - This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
