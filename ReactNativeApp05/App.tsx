@@ -16,7 +16,7 @@ const PasswordSchema = Yup.object().shape({
 const App = () => {
 
   const [password, setPassword] = useState('');
-  const [isGenerated, setIsGenerated] = useState(false);
+  const [isPassGenerated, setIsPassGenerated] = useState(false);
   const [lowerCase, setLowerCase] = useState(false);
   const [upperCase, setUpperCase] = useState(false);
   const [numbers, setNumbers] = useState(false);
@@ -34,7 +34,7 @@ const App = () => {
     return result;
   }
 
-  
+
   const generatePasswordStr = (passwordLength: number) => {
     let characterList = '';
     const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -62,11 +62,19 @@ const App = () => {
     const passwordResult = createPassword(characterList, passwordLength);
 
     setPassword(passwordResult);
-    setIsGenerated(true);
+    setIsPassGenerated(true);
   }
 
 
-  const resetPasswordState = () => {}
+  const resetPasswordState = () => {
+    setPassword('');
+    setIsPassGenerated(false);
+    setLowerCase(false);
+    setUpperCase(false);
+    setNumbers(false);
+    setSymbols(false);
+  }
+
 
   return (
     <View>
