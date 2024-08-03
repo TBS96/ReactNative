@@ -145,11 +145,11 @@ const App = () => {
                   </View>
 
                     <View style={styles.inputColumn}>
-                    <BouncyCheckbox 
-                      isChecked={lowerCase}
-                      onPress={() => setLowerCase(!lowerCase)}
-                      fillColor='#15A0E5'
-                    />
+                      <BouncyCheckbox 
+                        isChecked={lowerCase}
+                        onPress={() => setLowerCase(!lowerCase)}
+                        fillColor='#15A0E5'
+                      />
                     </View>
 
                 </View>
