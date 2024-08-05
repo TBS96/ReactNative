@@ -85,13 +85,13 @@ const App = () => {
                 style={[styles.button, targetCurrency === item.name && styles.selected]}
                 onPress={() => btnPressed(item)}>
                   <CurrencyBtn {...item} />
-                </Pressable>
+              </Pressable>
             )}
           />
         </View>
 
       </View>
-      
+
     </>
   )
 }
