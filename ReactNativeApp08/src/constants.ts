@@ -6,6 +6,12 @@ export const currencyByRupee: Currency[] = [
         symbol: '$',
     },
     {
+        name: 'BDT',
+        value: 1.40,
+        flag: '🇧🇩',
+        symbol: 'TK',
+    },
+    {
         name: 'EURO',
         value: 0.01125809,
         flag: '🇪🇺',
