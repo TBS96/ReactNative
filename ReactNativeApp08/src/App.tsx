@@ -46,6 +46,7 @@ const App = () => {
 
   return (
     <>
+
       <StatusBar/>
       <View style={styles.container}>
 
@@ -90,6 +91,7 @@ const App = () => {
         </View>
 
       </View>
+      
     </>
   )
 }
