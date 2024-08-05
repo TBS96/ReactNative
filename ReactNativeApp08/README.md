@@ -4,3 +4,4 @@
 - create component `CurrenctBtn.tsx`
 - importing `currencyByRupee` from `'./constants'`, `CurrencyBtn` from `'./components/CurrencyBtn'` & `Snackbar` from `'react-native-snackbar'` pkg
 - declare `useState`s for `inputValue`, `resultValue`, `targetCurrency`; create fn `btnPressed(Currency)` where we create logic for entering valid input value with the help of `Snackbar` pkg
+- added views for data rendering with the help of `<FlatList>`
