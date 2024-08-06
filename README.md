@@ -1,9 +1,9 @@
 ## Setup Env. variables in Env. settings(For Windows)
-Variable:
+- ### Variable:
 ``` bash
 ANDROID_HOME
 ```
-Value:
+- ### Value:
 ``` bash
 C:\Users\prant\AppData\Local\Android\Sdk
 ```
@@ -34,11 +34,11 @@ npx react-native@latest init ReactNativeApp01
 ```
 
 - ## Create `local.properties` under android folder & create sdk directory
-- For Windows
+- ### `For Windows`
 ``` bash
 sdk.dir=C:\\Users\\prant\\AppData\\Local\\Android\\Sdk
 ```
-- For Linux
+- ### `For Linux`
 ``` bash
 sdk.dir=/home/prantikg96/Android/Sdk
 ```
@@ -48,12 +48,12 @@ sdk.dir=/home/prantikg96/Android/Sdk
 android/local.properties
 ```
 
-- ## Run on device or emulator (For Windows)
+- ## Run on device or emulator (`For Windows`)
 ``` bash
 npx react-native run-android
 ```
 
-- ## Run on device or emulator (For Linux)
+- ## Run on device or emulator (`For Linux`)
 ``` bash
 npx react-native run-android && npx react-native start
 ```
