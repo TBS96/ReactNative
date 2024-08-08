@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import type { PropsWithChildren } from 'react'
+import { StyleSheet } from 'react-native'
+import React, { PropsWithChildren } from 'react'
+// import type { PropsWithChildren } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 type IconsProps = PropsWithChildren<{
