@@ -79,6 +79,35 @@ const App = () => {
   };
 
 
+  const onChangeItem = (itemNumber: number) => {
+
+    if(gameWinner)
+    {
+      return Snackbar.show({
+        text: gameWinner,
+        backgroundColor: '#000000',
+        textColor: '#FFFFFF'
+      })
+    }
+
+    if(gameState[itemNumber] === 'empty')
+    {
+      gameState[itemNumber] = isCross ? 'cross' : 'circle';
+      setIsCross(!isCross);
+    }
+    else
+    {
+      return Snackbar.show({
+        text: 'Position is already filled',
+        backgroundColor: 'red',
+        textColor: '#FFF'
+      })
+    }
+    checkIsWinner();
+    
+  };
+
+
   return (
     <SafeAreaView>
       <StatusBar />
