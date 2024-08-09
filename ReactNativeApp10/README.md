@@ -8,3 +8,5 @@
 - create `musicPlayerServices.js` & add fns. using `async-await`: `setupPlayer()`, `addTrack()`, `playbackService()`
 <br><br>
 - added `react-native-vector-icons` npm pkg
+<br><br>
+- in `App.tsx`, call `musicPlayerServices` ; `useState()`, `useEffect()` ; basic setup on rendering part: intro to `<ActivityIndicator />`
