@@ -14,3 +14,5 @@
 - create component => `ControlCenter.tsx` & import `usePlaybackState` hook & `MaterialIcons` ; added fns. `skipToNext()`, `skipToPrevious()`, `togglePlayback()` ; rendering them (currently having issues with `playBackState` type)
 <br><br>
 - create component `SongInfo.tsx` ; render `track` `title` & `track` `artist` & `track album`
+<br><br>
+- create component `SongSlider.jsx` ; call hook `useProgress()` from `'react-native-track-player'` with `position` & `duration` ; render `Slider` from `'@react-native-community/slider'` ; js code to show time progressed & time remaining using `Date()`
