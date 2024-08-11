@@ -18,7 +18,7 @@ const App = () => {
     setup();
   }, [])
 
-  // is the player is not ready, render below code using <ActivityIndicator>. Its just a loading screen like youtube buffering
+  // if the player is not ready, render below code using <ActivityIndicator>. Its just a loading screen like youtube buffering
   if(!isPlayerReady)
   {
     return (
