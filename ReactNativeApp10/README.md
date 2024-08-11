@@ -12,3 +12,5 @@
 - in `App.tsx`, call `musicPlayerServices` ; `useState()`, `useEffect()` ; basic setup on rendering part: intro to `<ActivityIndicator />`
 <br><br>
 - create component => `ControlCenter.tsx` & import `usePlaybackState` hook & `MaterialIcons` ; added fns. `skipToNext()`, `skipToPrevious()`, `togglePlayback()` ; rendering them (currently having issues with `playBackState` type)
+<br><br>
+- create component SongInfo.tsx ; render track title & track artist & track album
