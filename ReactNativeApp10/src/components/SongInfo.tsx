@@ -15,7 +15,10 @@ const SongInfo = ({track}: SongInfoProps) => {
                 {track?.title}
             </Text>
             <Text style={styles.artist}>
-                {track?.artist}     .       {track?.album}
+                {track?.artist}
+            </Text>
+            <Text style={styles.album}>
+              {track?.album}
             </Text>
         </View>
     </View>
@@ -42,6 +45,15 @@ const styles = StyleSheet.create({
     artist: {
       color: '#d9d9d9',
       textAlign: 'center',
+      fontSize: 16,
+      fontWeight: '800',
+    },
+    album: {
+      marginTop: 8,
+      fontSize: 18,
+      fontWeight: '800',
+      textAlign: 'center',
+      color: '#5C1E68'
     },
   });
 

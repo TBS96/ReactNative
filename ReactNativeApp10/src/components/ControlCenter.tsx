@@ -34,7 +34,7 @@ const ControlCenter = () => {
   return (
     <View style={styles.container}>
       <Pressable onPress={skipToPrevious}>
-        <Icon style={styles.icon} name="skip_previous" size={40} />
+        <Icon style={styles.icon} name="skip-previous" size={40} />
       </Pressable>
       <Pressable onPress={() => {
           if(playBackState.state !== undefined)
@@ -49,7 +49,7 @@ const ControlCenter = () => {
         />
       </Pressable>
       <Pressable onPress={skipToNext}>
-        <Icon style={styles.icon} name="skip_next" size={40} />
+        <Icon style={styles.icon} name="skip-next" size={40} />
       </Pressable>
     </View>
   )

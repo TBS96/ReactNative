@@ -14,7 +14,7 @@ export const playListData : Track[] = [
         title: 'EIDA - Find Me (Official Audio)',
         artist: 'M. Samiul Haque | Raihan Mahbub Rasha | Sakib Manzur Zihan | Hassan Munhamanna | Arjo Biswas',
         album: 'Pop Songs for No One | EIDA',
-        artwork: require('./assets/artwork/findme.jpg'),
+        artwork: 'https://i.scdn.co/image/ab67616d00001e021f4c68acde56b56248bfe2eb',
         url: require('./assets/audio/EIDA-FindMe.mp3')
     },
     {

@@ -1,6 +1,7 @@
 import { ActivityIndicator, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { setupPlayer, addTrack } from '../musicPlayerServices'
+import MusicPlayer from './screens/MusicPlayer';
 
 const App = () => {
   const [isPlayerReady, setIsPlayerReady] = useState(false);
@@ -29,10 +30,10 @@ const App = () => {
   }
   
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <Text>App</Text>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <StatusBar barStyle={'default'} />
+      <MusicPlayer></MusicPlayer>
+    </View>
   )
 }
 
