@@ -18,3 +18,5 @@
 - create component `SongSlider.jsx` ; call hook `useProgress()` from `'react-native-track-player'` with `position` & `duration` ; render `Slider` from `'@react-native-community/slider'` ; js code to show time progressed & time remaining using `Date()`
 <br><br>
 - added screens => `MusicPlayer.tsx` ; `useTrackPlayerEvents()` ; rendered all components
+<br><br>
+- rendering components in `App.tsx`
