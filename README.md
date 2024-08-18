@@ -28,9 +28,11 @@ echo $ANDROID_HOME
 echo $PATH
 ```
 
-- ## Initialize Project
+- ## Initialize Project (Deprecated as of 16-08-2024): ~~`npx react-native@latest init ReactNativeApp01`~~
+
+- ## Initialize Project (from 16-08-2024 onwards)
 ``` bash
-npx react-native@latest init ReactNativeApp01
+npx @react-native-community/cli@latest init ReactNativeApp01
 ```
 
 - ## Create `local.properties` under android folder & create sdk directory
