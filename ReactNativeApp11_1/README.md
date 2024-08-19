@@ -5,3 +5,5 @@
 <br><br>
 - `import { NavigationContainer } from '@react-navigation/native'` & `import { createNativeStackNavigator } from '@react-navigation/native-stack'`
 <br><br>
+- `export type RootStackParamList={...}` ; `Stack=createNativeStackNavigator<RootStackParamList>();` <= for typesafety(optional); render screens `Home` & `Details` using components: `<NavigationContainer>`, `<Stack.Navigator>`, `<Stack.Screen>`
+<br><br>
