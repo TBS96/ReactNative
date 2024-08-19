@@ -3,3 +3,5 @@
 <br><br>
 - created screens `Home.tsx` & `Details.tsx` and imported them in `App.tsx`
 <br><br>
+- `import { NavigationContainer } from '@react-navigation/native'` & `import { createNativeStackNavigator } from '@react-navigation/native-stack'`
+<br><br>
