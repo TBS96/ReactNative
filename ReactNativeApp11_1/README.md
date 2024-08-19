@@ -7,3 +7,5 @@
 <br><br>
 - `export type RootStackParamList={...}` ; `Stack=createNativeStackNavigator<RootStackParamList>();` <= for typesafety(optional); render screens `Home` & `Details` using components: `<NavigationContainer>`, `<Stack.Navigator>`, `<Stack.Screen>`
 <br><br>
+- setup Home screen for navigaton ; `import { NativeStackScreenProps } from '@react-navigation/native-stack'` ; `import { RootStackParamList } from '../App'` ; `type HomeProps = NativeStackScreenProps<RootStackParamList, 'Home'>` ; destructuring '`navigation`' of type `HomeProps` ; rendering to navigate to details screen pressing a button using 3 methods
+<br><br>
