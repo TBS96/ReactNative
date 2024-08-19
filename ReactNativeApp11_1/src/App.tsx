@@ -1,5 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
+import {Text, View } from 'react-native'
 import React from 'react'
+
+// Navigation
+import { NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 const App = () => {
   return (
@@ -10,5 +14,3 @@ const App = () => {
 }
 
 export default App
-
-const styles = StyleSheet.create({})
