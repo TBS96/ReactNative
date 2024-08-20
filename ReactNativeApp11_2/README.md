@@ -3,3 +3,5 @@
 <br><br>
 - import Navigation stuffs and render in App.tsx ; create screens: `Home.tsx` & `Details.tsx` ; and `index.d.ts` as interface declaration of data types
 <br><br>
+- added static data => `PRODUCTS_LIST` of type `Products[]` in `src/data/constants.ts`
+<br><br>
