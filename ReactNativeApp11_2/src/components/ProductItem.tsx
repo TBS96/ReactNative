@@ -1,10 +1,35 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { Image, StyleSheet, Text, View } from 'react-native'
+import React, { PropsWithChildren } from 'react'
 
-const ProductItem = () => {
+type ProductProps = PropsWithChildren<{
+    product: Product
+}>
+
+const ProductItem = ({product}: ProductProps) => {
   return (
-    <View>
-      <Text>ProductItem</Text>
+    <View style={styles.container}>
+
+      <Image source={{uri: product.imageUrl}} style={styles.image}/>
+
+      <View>
+
+        <Text style={styles.name}> {product.name} </Text>
+
+        <View style={[styles.rowContainer, styles.ratingContainer]}>
+            <View style={styles.rating}>
+                <Text> {product.rating} &ast; ★ </Text>
+            </View>
+            <Text style={styles.ratingCount}> ({product.ratingCount.toLocaleString()}) </Text>
+        </View>
+
+        <View style={[styles.rowContainer, styles.priceContainer]}>
+            <Text style={styles.originalPrice}> ₹{product.originalPrice.toLocaleString()} </Text>
+            <Text style={styles.discountPrice}> ₹{product.discountPrice.toLocaleString()} </Text>
+            <Text style={styles.offerPercentage}> ₹{product.offerPercentage.toLocaleString()} </Text>
+        </View>
+
+      </View>
+
     </View>
   )
 }
