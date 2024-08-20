@@ -10,7 +10,7 @@ const Separator = () => {
 const styles = StyleSheet.create({
     separator: {
         height: 0.8,
-        color: '#CAD5E2'
+        backgroundColor: '#CAD5E2'
     }
 })
 
