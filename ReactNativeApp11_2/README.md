@@ -11,5 +11,5 @@
 <br><br>
 - import `Navigation`, `Components` & `Data` in `Home.tsx` ; Render `PRODUCT_LIST` using `<Flatlist>` ; added styles for container
 <br><br>
-- import Navigation stuffs ; `RootStackParamList` ; render details of each product
+- import Navigation stuffs ; `RootStackParamList` ; render details of each product in `Details.tsx` screen
 <br><br>
