@@ -17,7 +17,7 @@ const ProductItem = ({product}: ProductProps) => {
 
         <View style={[styles.rowContainer, styles.ratingContainer]}>
             <View style={styles.rating}>
-                <Text> {product.rating} &ast; ★ </Text>
+                <Text> {product.rating} ★ </Text>
             </View>
             <Text style={styles.ratingCount}> ({product.ratingCount.toLocaleString()}) </Text>
         </View>
@@ -25,7 +25,7 @@ const ProductItem = ({product}: ProductProps) => {
         <View style={[styles.rowContainer, styles.priceContainer]}>
             <Text style={styles.originalPrice}> ₹{product.originalPrice.toLocaleString()} </Text>
             <Text style={styles.discountPrice}> ₹{product.discountPrice.toLocaleString()} </Text>
-            <Text style={styles.offerPercentage}> ₹{product.offerPercentage.toLocaleString()} </Text>
+            <Text style={styles.offerPercentage}> {product.offerPercentage.toLocaleString()}% off </Text>
         </View>
 
       </View>
