@@ -9,3 +9,5 @@
 <br><br>
 - destructure `{product}` from `src/data/constants.ts` using `PropsWithChildren` in `ProductItem.tsx` component ; and render them
 <br><br>
+- import `Navigation`, `Components` & `Data` in `Home.tsx` ; Render `PRODUCT_LIST` using `<Flatlist>` ; added styles for container
+<br><br>
