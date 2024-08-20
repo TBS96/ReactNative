@@ -5,3 +5,5 @@
 <br><br>
 - added static data => `PRODUCTS_LIST` of type `Products[]` in `src/data/constants.ts`
 <br><br>
+- create components `Separator.tsx` & `ProductItem.tsx` with StyleSheet
+<br><br>
