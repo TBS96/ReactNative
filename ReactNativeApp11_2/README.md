@@ -7,3 +7,5 @@
 <br><br>
 - create components `Separator.tsx` & `ProductItem.tsx` with StyleSheet
 <br><br>
+- destructure `{product}` from `src/data/constants.ts` using `PropsWithChildren` in `ProductItem.tsx` component ; and render them
+<br><br>
