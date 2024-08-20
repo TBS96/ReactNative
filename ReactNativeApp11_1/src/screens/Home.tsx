@@ -25,6 +25,11 @@ const Home = ({navigation}: HomeProps) => {
         onPress={() => navigation.push('Details', {
           productId: '86'
         })}
+
+        // OR use .replace if we dont want the back btn on navbar
+        // onPress={() => navigation.replace('Details', {
+        //   productId: '86'
+        // })}
         />
     </View>
   )
