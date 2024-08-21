@@ -2,7 +2,7 @@
 - setup env. for `Appwrite Authentication` app
 <br><br>
 
-# Dependencies need to install:
+- ## Dependencies need to install:
 - Navigation dependencies:
 - - `npm install @react-navigation/native` ,
 - - `npm install react-native-screens react-native-safe-area-context` ,
@@ -16,6 +16,8 @@
 
 - NPM pkg for popups down the screen: `npm i react-native-snackbar` <br><br>
 
-- RN Vector Icons: `npm i react-native-vector-icons` (Go to `android/app/build.gradle` and do apply the method that's shown in docs!)
+- RN Vector Icons: `npm i react-native-vector-icons` (Go to `android/app/build.gradle` and do apply the method that's shown in docs!) <br><br>
 
-- AppWrite: `npm i appwrite`
+- AppWrite: `npm i appwrite` <br><br>
+
+- ## Create .env file to store `project_id` & `api_endpoint`
