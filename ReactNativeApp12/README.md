@@ -17,3 +17,5 @@
 - NPM pkg for popups down the screen: `npm i react-native-snackbar` <br><br>
 
 - RN Vector Icons: `npm i react-native-vector-icons` (Go to `android/app/build.gradle` and do apply the method that's shown in docs!)
+
+- AppWrite: `npm i appwrite`
