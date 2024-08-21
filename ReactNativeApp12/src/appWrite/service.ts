@@ -100,7 +100,7 @@ class AppwriteService {
         }
         catch (error) 
         {
-            console.log("Appwrite service :: getCurrentUser() :: " + error)
+            console.log("Appwrite service :: logout() :: " + error)
         }
     }
 }
