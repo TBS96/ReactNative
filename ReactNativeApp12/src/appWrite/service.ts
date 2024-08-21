@@ -74,7 +74,7 @@ class AppwriteService {
                 text: String(error),
                 duration: Snackbar.LENGTH_LONG
             })
-            console.log("Appwrite service :: loginAccount() :: " + error);
+            console.log("Appwrite service :: login() :: " + error);
         }
     }
 
