@@ -12,11 +12,11 @@
 - - `npm i @rneui/themed` ,
 - - `npm i @rneui/base` <br><br>
 
-- NPM pkg for config:  `npm i react-native-config` (See instructions for `Manual Link(Android)` & `Extra step for Android`) <br><br>
+- NPM pkg for config:  `npm i react-native-config` (See instructions for `Manual Link(Android)` & `Extra step for Android`)
 
-- NPM pkg for popups down the screen: `npm i react-native-snackbar` <br><br>
+- NPM pkg for popups down the screen: `npm i react-native-snackbar`
 
-- RN Vector Icons: `npm i react-native-vector-icons` (Go to `android/app/build.gradle` and do apply the method that's shown in docs!) <br><br>
+- RN Vector Icons: `npm i react-native-vector-icons` (Go to `android/app/build.gradle` and do apply the method that's shown in docs!)
 
 - AppWrite: `npm i appwrite` <br><br>
 
