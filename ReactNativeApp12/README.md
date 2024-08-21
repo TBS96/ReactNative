@@ -21,3 +21,5 @@
 - AppWrite: `npm i appwrite` <br><br>
 
 - ## Create .env file to store `project_id` & `api_endpoint`
+
+- ## Create `src/appwrite/service.ts` where we create `appwriteService class` to `createAccount()`, `login()`, `getCurrentUser()`, `logout()` ; all of this is to store user data in AppWrite DB
