@@ -35,3 +35,5 @@
 - ### Create `AppStack` and import `Home` screen ; `Stack=createNativeStackNavigator()`
 
 - ### Create `AuthStack` and import `Login` & `Signup` screens ; `Stack=createNativeStackNavigator()`
+
+- ### Create `Router.tsx` where we are importing `AppwriteContext` , `Loading` , Routes: `AppStack` & `AuthStack` ; `useState()` to check `isLoading` ; `useContext(AppwriteContext)` ; `useEffect(() => {...})` ; component: `<NavigationContainer>` and checking if `isLoggedIn` then render route `<AppStack/>` else render route `<AuthStack />`
