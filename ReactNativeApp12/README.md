@@ -27,3 +27,5 @@
 - ## Create `AppwriteContext`, where we are calling `AppwriteService`, checking `isLoggedIn` using `useState`, & providing `defaultValue` as `AppwriteContext`'s value where we're rendering `{children}`
 
 - ## Create component `Loading.tsx` where we are just rendering some loading using `ActivityIndicator`
+
+- ## Creating 3 routes => `AppStack.tsx`(route where the application actually lives) ; `AuthStack.tsx`(route where the user will be redirected back to the login or register) ; `Router.tsx`(route where we'll be checking using `useEffect` hook, for simply checking whether the user is logged in, based on user is logged in or not, if user is not logged in, we'll be serving user Auth, and if logged in, we'll be serving user in app.AppStack)
