@@ -40,4 +40,6 @@
 
 - ### `import { FAB } from '@rneui/themed'` , `import Snackbar from 'react-native-snackbar'` , `import { AppwriteContext } from '../appWrite/AppwriteContext'` ; render `userData` in HomePage
 
-- ### import `NativeStackScreenProps`, `AuthStackParamList` for navigation ; `useContext(AppwriteContext)` ; useStates => `error`, `name`, `email`, `password`, `repeatPassword` ; `handleSignup()` ; render with new component class `<KeyboardAvoidingView>` with `Platform` ; create form for the useState variables using `TextInput` ; `Pressable` btns for signup and Already have an account,  then `Login` with `navigation.navigate('Login')`
+- ### `Signup Screen`: import `NativeStackScreenProps`, `AuthStackParamList` for navigation ; `useContext(AppwriteContext)` ; useStates => `error`, `name`, `email`, `password`, `repeatPassword` ; `handleSignup()` ; render with new component class `<KeyboardAvoidingView>` with `Platform` ; create form for the useState variables using `TextInput` ; `Pressable` btns for signup and Already have an account,  then `Login` with `navigation.navigate('Login')`
+
+- ### `Login Screen`: import `NativeStackScreenProps`, `AuthStackParamList` for navigation ; `useContext(AppwriteContext)` ; useStates => `error`, `email`, `password` ; `handleLogin()` ; render with new component class `<KeyboardAvoidingView>` with `Platform` ; create form for the useState variables using `TextInput` ; `Pressable` btns for Login and Don't have an account,  then `Signup` with `navigation.navigate('Signup')`
