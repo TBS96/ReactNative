@@ -1,14 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { AppwriteProvider } from './appWrite/AppwriteContext'
+import Loading from './components/Loading'
+import Router from './routes/Router'
 
 const App = () => {
   return (
-    <View>
-      <Text>AppWrite Authentication</Text>
-    </View>
+    <AppwriteProvider>
+      <React.Suspense fallback={<Loading/>}>
+        <Router/>
+      </React.Suspense>
+    </AppwriteProvider>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({})
