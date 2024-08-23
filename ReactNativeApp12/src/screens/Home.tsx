@@ -53,7 +53,7 @@ const Home = () => {
         <View style={styles.welcomeContainer}>
           <Image
             source={{
-              uri: 'https://appwrite.io/images-ee/blog/og-private-beta.png',
+              uri: 'https://media.istockphoto.com/id/1332104709/photo/shot-of-a-young-male-engineer-using-his-laptop-in-a-server-room.jpg?s=1024x1024&w=is&k=20&c=MAhJL---c2n8Ei5oWHADXb-5rVtjvHtAsYzxXfpVUe4=',
               width: 400,
               height: 300,
               cache: 'default',
