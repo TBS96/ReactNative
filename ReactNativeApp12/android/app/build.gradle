@@ -120,6 +120,8 @@ dependencies {
 
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation project(':react-native-config')
+
+    implementation("io.appwrite:sdk-for-android:5.1.1")
 }
 
 // imp congig
