@@ -3,9 +3,9 @@ import AppwriteService from './service'
 
 
 type AppContextType = {
-    appwrite: AppwriteService;
-    isLoggedIn: boolean;
-    setIsLoggedIn: (isLoggedIn: boolean) => void
+  appwrite: AppwriteService;
+  isLoggedIn: boolean;
+  setIsLoggedIn: (isLoggedIn: boolean) => void
 }
 
 
