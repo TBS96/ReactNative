@@ -39,3 +39,5 @@
 - ### Create `Router.tsx` where we are importing `AppwriteContext` , `Loading` , Routes: `AppStack` & `AuthStack` ; `useState()` to check `isLoading` ; `useContext(AppwriteContext)` ; `useEffect(() => {...})` ; component: `<NavigationContainer>` and checking if `isLoggedIn` then render route `<AppStack/>` else render route `<AuthStack />`
 
 - ### `import { FAB } from '@rneui/themed'` , `import Snackbar from 'react-native-snackbar'` , `import { AppwriteContext } from '../appWrite/AppwriteContext'` ; render `userData` in HomePage
+
+- ### import `NativeStackScreenProps`, `AuthStackParamList` for navigation ; `useContext(AppwriteContext)` ; useStates => `error`, `name`, `email`, `password`, `repeatPassword` ; `handleSignup()` ; render with new component class `<KeyboardAvoidingView>` with `Platform` ; create form for the useState variables using `TextInput` ; `Pressable` btns for signup and Already have an account,  then `Login` with `navigation.navigate('Login')`
