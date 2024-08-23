@@ -37,3 +37,5 @@
 - ### Create `AuthStack` and import `Login` & `Signup` screens ; `Stack=createNativeStackNavigator()`
 
 - ### Create `Router.tsx` where we are importing `AppwriteContext` , `Loading` , Routes: `AppStack` & `AuthStack` ; `useState()` to check `isLoading` ; `useContext(AppwriteContext)` ; `useEffect(() => {...})` ; component: `<NavigationContainer>` and checking if `isLoggedIn` then render route `<AppStack/>` else render route `<AuthStack />`
+
+- ### `import { FAB } from '@rneui/themed'` , `import Snackbar from 'react-native-snackbar'` , `import { AppwriteContext } from '../appWrite/AppwriteContext'` ; render `userData` in HomePage
